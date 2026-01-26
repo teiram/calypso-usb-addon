@@ -1806,7 +1806,7 @@
     (pin "1" (uuid 653ef925-467b-4d4d-b213-8544c51d6af9))
     (pin "2" (uuid 68063e6e-4e38-4f81-877d-7838887e0567))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C2") (unit 1)
         )
@@ -1832,7 +1832,7 @@
     (pin "1" (uuid 90f76c30-f4d2-4d00-8ec6-02e06b949e31))
     (pin "2" (uuid 12d325d0-092e-4c6d-b170-4a7e28652a97))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C3") (unit 1)
         )
@@ -1858,7 +1858,7 @@
     (pin "1" (uuid b313aeb2-493c-4ea1-80fe-5084ed50af06))
     (pin "2" (uuid 7a8f17bb-3fcb-4688-92cd-920de2f02d39))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R3") (unit 1)
         )
@@ -1891,7 +1891,7 @@
     (pin "8" (uuid 5176d4fb-d06f-4620-a08a-213e466c1dc6))
     (pin "9" (uuid 885ebe43-b6ad-42fe-bc71-d7c9ebc3d292))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J4") (unit 1)
         )
@@ -1917,7 +1917,7 @@
     (pin "1" (uuid 7d3dd175-cf62-47a1-9fee-30264ebde7de))
     (pin "2" (uuid a0c9e4f8-7eab-44f3-8588-c1496b8566a2))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J6") (unit 1)
         )
@@ -1943,7 +1943,7 @@
     (pin "1" (uuid 6b753947-c4ae-4606-b39c-679f62527232))
     (pin "2" (uuid b778034c-b907-4b81-b027-9cd5435cfc59))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R2") (unit 1)
         )
@@ -1991,7 +1991,7 @@
     (pin "8" (uuid 6289737d-0f99-4c8f-8987-9417edb7a6de))
     (pin "9" (uuid f58a8448-b805-43fc-b68e-89061fe0fd94))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J1") (unit 1)
         )
@@ -2017,7 +2017,7 @@
     (pin "1" (uuid b338ee14-7603-4629-bd10-3076d421df12))
     (pin "2" (uuid 5126a6df-35b3-4be3-80d5-d1bfe870bbaf))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C1") (unit 1)
         )
@@ -2043,7 +2043,7 @@
     (pin "1" (uuid b8e3636e-cf5b-4b82-8905-8236cc6b3d7d))
     (pin "2" (uuid f75e7142-a215-4d44-b8cf-4bf92cb1c155))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R1") (unit 1)
         )
@@ -2083,7 +2083,7 @@
     (pin "8" (uuid c28ff87c-04c0-4bad-8dd4-8cea8dc4f6ad))
     (pin "9" (uuid d6d50d33-e91e-4d4e-94b7-a67cb83f8183))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U1") (unit 1)
         )
@@ -2097,7 +2097,7 @@
     (property "Reference" "U2" (at 92.71 118.11 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "ESP-PSRAM32" (at 92.71 120.65 0)
+    (property "Value" "ESP-PSRAM64H" (at 92.71 120.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 101.6 134.62 0)
@@ -2115,7 +2115,7 @@
     (pin "7" (uuid 7034e247-e581-4094-af7b-bfedfbeca467))
     (pin "5" (uuid dad8ad91-d0b2-4be7-84a9-1a7cc7fad33b))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U2") (unit 1)
         )
@@ -2148,7 +2148,7 @@
     (pin "8" (uuid 0e844798-58b5-40d6-82fe-e86239f9ed61))
     (pin "9" (uuid b36e399c-fd07-48dc-9ff5-2204b47fbf43))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J5") (unit 1)
         )
@@ -2173,7 +2173,7 @@
     )
     (pin "1" (uuid 64ae3042-f3d2-473c-a444-86e49a0fc3ce))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0102") (unit 1)
         )
@@ -2221,7 +2221,7 @@
     (pin "8" (uuid cee47086-699f-4d9e-921e-e076e47b9372))
     (pin "9" (uuid 2fff2882-ab3c-4008-be85-53f6d2324100))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J2") (unit 1)
         )
@@ -2246,7 +2246,7 @@
     )
     (pin "1" (uuid be9b78f2-4fda-48c3-a174-a558eb49cefc))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0101") (unit 1)
         )
@@ -2276,7 +2276,7 @@
     (pin "5" (uuid 82aabae5-e10a-448a-be77-743c258d18e5))
     (pin "6" (uuid 91ffbf01-b960-49e1-aed4-0f3afc349836))
     (instances
-      (project "calypso-usb-addon"
+      (project "calypso-powerpack-addon"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J3") (unit 1)
         )

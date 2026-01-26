@@ -22,4 +22,7 @@ For the USB-C side, I recommend to use a connector with presoldered miniboard ex
 
 The board provides power to the USB peripherals coming directly from the Calypso Mini USB port. Take that into account when choosing the power supply for the Calypso board since it must provide enough power for the USB hub and the devices you might connect. 
 
+# Changelog
+- 0.1. Initial version
+- 0.2. Fix ibom and silk for PSRAM (ESP-PSRAM64H)
 
