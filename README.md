@@ -6,7 +6,7 @@ Add-on for the calypso board featuring USB 2.0 hub with 4 ports and 8MB PSRAM
 # Description
 Based on the inexpensive HS8836A USB 2.0 hub, this add-on provides 4 extra USB ports to connect peripherals to the Calypso board. This could come handy to connect USB keyboards and mice or any other device supported by the Calypso firmware.
 
-It also provides a footprint to install 8MB of extra PSRAM. The PSRAM is addressed using QSPI and was tested to run properly at 108Mhz clock, what would allow to simulate a 8 bit SRAM at around 148 ns access time.
+It also provides a footprint to install 8MB of extra PSRAM. The PSRAM is addressed using QSPI and was tested to run properly at 108Mhz clock, what would allow to simulate a 8 bit SRAM at around 148 ns access time. Please take into account that version 0.1 has an error in the silk text and iBOM: The PSRAM to use is a ESP32-PSRAM64H.
 
 The board exposes a micro USB connector to connect to the RP2040 with an additional cable (male USB-C to male Micro-USB). But it would be more practical to solder a cable directly to the provided D+/D- pads on the board. You only need two wires for D+/D- since ground is common and the board powers the USB peripherals.
 
